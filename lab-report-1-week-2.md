@@ -55,6 +55,16 @@ Keep in mind to replace the zzz with your course-specific account
 3. It will prompt you to enter a password, so do so
 4. It should look somewhat like this: 
 ![Image](scp.png)
+---
 
+## 7. SSH Keys 
+You have probably noticed that it is very tedious to re-enter password. Here is a way we can fix that. 
+1. We are going to create 2 files: public key and private key 
+2. We are going to copy the public key to the server, and the private key on the client by using the ssh command
+3. Type this in the terminal: ssh-keygen 
+4. (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+  5. It'll ask you to enter passphrase and make sure to note add a paraphrase for this step! So, just click enter 
+  6. It'll look like this:
+  ![Image](keygen.png)
 
 
