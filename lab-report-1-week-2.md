@@ -16,7 +16,7 @@ You can look up your course-specific account here:
 [CSE 15L ACC](https://sdacs.ucsd.edu/~icc/index.php)
 ---
 
-## 4. Connecting to remote computers in VScode
+## 4. Remotely Connecting 
 1. Open the terminal in VScode by doing (Ctrl + `)
 2. Type in this command: $ ssh cs15lsp22zzz@ieng6.ucsd.edu 
 Keep in mind to replace the zzz with your personal coure-specific account you found in step 3
@@ -37,7 +37,7 @@ try:
 
 ---
 
-## 6. Moving files over SSH with scp 
+## 6. Moving files with scp
 1. Create a file on VScode called WhereAmI.java and put the following inside:
 class WhereAmI {
 public static void main(String[] args) {
@@ -57,14 +57,27 @@ Keep in mind to replace the zzz with your course-specific account
 ![Image](scp.png)
 ---
 
-## 7. SSH Keys 
+## 7. Setting an SSH key 
 You have probably noticed that it is very tedious to re-enter password. Here is a way we can fix that. 
 1. We are going to create 2 files: public key and private key 
 2. We are going to copy the public key to the server, and the private key on the client by using the ssh command
 3. Type this in the terminal: ssh-keygen 
 4. (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
   5. It'll ask you to enter passphrase and make sure to note add a paraphrase for this step! So, just click enter 
-  6. It'll look like this:
+  6. Now type this into the terminal:
+   ssh cs15lsp22zzz@ieng6.ucsd.edu 
+  then enter your password 
+  then type this:
+  mkdir .ssh 
+  then this:
+  $ scp /Users/<user-name>/.ssh/id_rsa.pub
+cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+  (except replace it to your username and the path you saw in the command)
+  7. It'll look like this:
   ![Image](keygen.png)
+  8. Now we can ssh or scp into the server without entering password!
+  ---
+  
+  ## 8. Optimizing Remote Running 
 
 
