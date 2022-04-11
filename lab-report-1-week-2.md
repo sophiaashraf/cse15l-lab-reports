@@ -8,7 +8,7 @@
 [VScode](https://code.visualstudio.com/download)
 
 
-####Once you've downloaded VScode, it should look like this: 
+#### Once you've downloaded VScode, it should look like this: 
 
 
 ![Image](vscode.png)
