@@ -57,6 +57,8 @@ $ ssh cs15lsp22zzz@ieng6.ucsd.edu
 4. etc... 
 
 
+![Image](commands.png)
+
 ## 6. Moving files with scp
 1. Create a file on VScode called WhereAmI.java and put the following inside:
 ``` java
