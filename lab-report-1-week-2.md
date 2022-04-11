@@ -31,7 +31,7 @@
 ``` java
 $ ssh cs15lsp22zzz@ieng6.ucsd.edu 
 ```
-Keep in mind to replace the zzz with your personal coure-specific account you found in step 3
+#### Keep in mind to replace the zzz with your personal coure-specific account you found in step 3
 3. If it is your first time connecting to this server, you will get a message asking
 
 
@@ -94,9 +94,13 @@ scp WhereAmI.java cs15lsp22zzz@ieng6.ucsd.edu:~/
 3. Type this in the terminal:  
 ``` java
 ssh-keygen
+``` 
 
+```java
 (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa 
 ```
+
+
   5. It'll ask you to enter passphrase and make sure to note add a paraphrase for this step! So, just click enter 
   6. Now type this into the terminal:
   ``` java 
