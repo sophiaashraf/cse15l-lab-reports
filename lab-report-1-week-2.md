@@ -27,7 +27,12 @@
 1. Open the terminal in VScode by doing (Ctrl + `)
 2. Type in this command: $ ssh cs15lsp22zzz@ieng6.ucsd.edu 
 Keep in mind to replace the zzz with your personal coure-specific account you found in step 3
-3. If it is your first time connecting to this server, you willl get a message asking "Are you sure you want to continue connecting (yes/no/[fingerprint])?
+3. If it is your first time connecting to this server, you will get a message asking
+
+
+``` "Are you sure you want to continue connecting (yes/no/[fingerprint])?``` 
+
+
 4. Type yes and give your password 
 5. It should look somewhat like this: 
 
