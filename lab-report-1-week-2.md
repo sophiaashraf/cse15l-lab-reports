@@ -25,7 +25,12 @@
 
 ## 4. Remotely Connecting 
 1. Open the terminal in VScode by doing (Ctrl + `)
-2. Type in this command: $ ssh cs15lsp22zzz@ieng6.ucsd.edu 
+2. Type in this command: 
+
+
+``` java
+$ ssh cs15lsp22zzz@ieng6.ucsd.edu 
+```
 Keep in mind to replace the zzz with your personal coure-specific account you found in step 3
 3. If it is your first time connecting to this server, you will get a message asking
 
@@ -86,20 +91,29 @@ scp WhereAmI.java cs15lsp22zzz@ieng6.ucsd.edu:~/
 
 1. We are going to create 2 files: public key and private key 
 2. We are going to copy the public key to the server, and the private key on the client by using the ssh command
-3. Type this in the terminal:  ```ssh-keygen```
-4. ```(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa ```
+3. Type this in the terminal:  
+``` java
+ssh-keygen
+
+(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa 
+```
   5. It'll ask you to enter passphrase and make sure to note add a paraphrase for this step! So, just click enter 
   6. Now type this into the terminal:
-  ``` ssh cs15lsp22zzz@ieng6.ucsd.edu ```
-  #### then enter your password 
-  #### then type this:
- ``` mkdir .ssh``` 
-  #### then this:
+  ``` java 
+  ssh cs15lsp22zzz@ieng6.ucsd.edu
+  ```
+  
+#### then enter your password 
+#### then type this:
+ ``` java 
+ mkdir .ssh
+ ``` 
+#### then this:
   ``` java
   $ scp /Users/<user-name>/.ssh/id_rsa.pub
 cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ``` 
-  #### (except replace it to your username and the path you saw in the command)
+#### (except replace it to your username and the path you saw in the command)
   7. It'll look like this:
 
 
