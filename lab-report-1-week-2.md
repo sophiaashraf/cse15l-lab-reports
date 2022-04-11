@@ -1,3 +1,5 @@
+theme: jekyll-theme-architect
+
 # TUTORIAL FOR INCOMING 15L STUDENTS 
 ---
 ## 1. Installing VScode 
