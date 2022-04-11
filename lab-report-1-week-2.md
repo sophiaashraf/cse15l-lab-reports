@@ -122,6 +122,8 @@ cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 
   ![Image](keygen.png)
+  
+  
   8. Now we can ssh or scp into the server without entering password!
 
   
