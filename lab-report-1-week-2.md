@@ -133,3 +133,12 @@ cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 Try running more commands on the terminal. Use the up arrow key on the keyboard and you should notice that the previous commands you wrote on the terminal will appear. This makes it more time efficient. 
 
 
+As you are typing in commands in the terminal, click tab button on the computer, and it should auto type complete your command. 
+
+You can also use semicolons to run multiple commands on the same line in the terminal. This saves some time because it refrains you from having to run a new line everytime you enter a command. For example:
+
+```java 
+$ cp WhereAmI.java OtherFile.java; javac OtherFile.java; java WhereamI
+```
+
+
