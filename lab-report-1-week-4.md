@@ -17,4 +17,15 @@
 
 ![Image](commit2.png)
 
-2. 
+ 2. 
+ 
+ 
+#### The second issue was was when the link would be empty, the output would still print an extra space and comma. 
+
+![Image](commit3.png)
+
+#### In order to fix this issues, I created a condition checking if the link was empty by checking if the openParen and closeParen had adjacent indexes. If that condition was true, then the currentIndex would increment to check the next line. 
+
+[Link to test file](https://github.com/sophiaashraf/markdown-parser/commit/b1aaf009e2d58ddd617767cf59adb8554ba8e187)
+
+
