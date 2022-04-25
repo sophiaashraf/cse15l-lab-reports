@@ -9,7 +9,7 @@
 
 ![Image](nooutput.png)
 
-#### In order to fix the infiinite loop, I created a condition checking when open bracket is equal to -1, to just break (stop the code). 
+#### In order to fix the infiinite loop, I created a condition checking when open bracket is equal to -1, to just break (stop the code). The code exits the loops if it can't find theh index of the open bracket.
 
 ![Image](commit1.png)
 
@@ -31,6 +31,8 @@
 [Link to test file](https://github.com/sophiaashraf/markdown-parser/commit/b1aaf009e2d58ddd617767cf59adb8554ba8e187)
 
 3.
+
+
 
 
 #### The third issue was that the code wouldn't 
