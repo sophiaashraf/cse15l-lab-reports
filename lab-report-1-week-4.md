@@ -35,4 +35,14 @@
 
 
 
-#### The third issue was that the code wouldn't 
+#### The third issue was that the code wouldn't recognize that "!" in front of the bracket means image. The image below shows the incorrect output:
+
+
+![Image](wrong.png)
+
+
+#### By fixing it, I created a condition checking if the index before the open bracket was "!" to skip that line and continue. 
+
+![Image](right.png)
+
+[Link to test file]()
