@@ -28,6 +28,7 @@
 
 #### In order to fix this issues, I created a condition checking if the link was empty by checking if the openParen and closeParen had adjacent indexes. If that condition was true, then the currentIndex would increment to check the next line. 
 
+
 [Link to test file](https://github.com/sophiaashraf/markdown-parser/commit/b1aaf009e2d58ddd617767cf59adb8554ba8e187)
 
 3.
@@ -42,6 +43,9 @@
 
 
 #### By fixing it, I created a condition checking if the index before the open bracket was "!" to skip that line and continue. 
+
+![Image](commit4.png)
+
 
 ![Image](right.png)
 
