@@ -2,5 +2,5 @@
 ---
 #### Three code changes:
 
-1. ![commit1](commit.png)
+1. ![](commit.png)
 2. 
