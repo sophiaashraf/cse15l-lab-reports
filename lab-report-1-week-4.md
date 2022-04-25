@@ -30,4 +30,7 @@
 
 [Link to test file](https://github.com/sophiaashraf/markdown-parser/commit/b1aaf009e2d58ddd617767cf59adb8554ba8e187)
 
+3.
 
+
+#### The third issue was that the code wouldn't 
