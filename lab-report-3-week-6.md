@@ -39,7 +39,7 @@ Copying your whole markdown-parse directory to your ieng6:
 ![Image](copy.png)
 
 Show logging into your ieng6 account after doing this and compiling and running the tests for your repository:
-![Image](test.png)
+![Image](sshp3.png)
 
 Combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
 ![Image](
