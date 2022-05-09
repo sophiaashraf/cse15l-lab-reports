@@ -20,6 +20,11 @@ We can also use scp, instead of writing out cs15lsp22
 Here we can see that the public key is represented by id_rsa.pub, and the private key is id_rsa.
 ![Image](sshkey.png)
 
+Here we created an SSH key 
+![Image](sshkeyy.png)
+
+
+
 Here we can commit and push:
 ![Image](git.png)
 [Link for the commit](https://github.com/sophiaashraf/SkillDemoo/commit/d1a18e66d86ca6c00d56db69729004a6dec3d6d2)
