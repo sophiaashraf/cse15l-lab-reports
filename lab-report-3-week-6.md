@@ -42,7 +42,7 @@ Show logging into your ieng6 account after doing this and compiling and running 
 ![Image](sshp3.png)
 
 Combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
-![Image](
+![Image](last.png)
 
 
 
