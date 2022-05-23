@@ -1,5 +1,25 @@
+## Lab Report  
+[Link to our Markdown Parser](https://github.com/sophiaashraf/good-markdown-parser)
 
-[Link to Markdown Parser](https://github.com/sophiaashraf/good-markdown-parser)
+MarkdownParseTest.java test and expected output 
+
+![Image](test.png)
+
+Our Markdown Parse result: 
+1. snippet 1 failed ![Image](snip1.png)
+2. snippet 2 failed ![Image](snip2.png)
+3. snippet 3 failed ![Image](snip3.png)
+
+![Image](allsnip.png)
+
+
+
+
+
+
+
+
+
 Your report should include:
 
 Decide on what it should produce (i.e., expected output) by using either VScode preview or the CommonMark demo site
