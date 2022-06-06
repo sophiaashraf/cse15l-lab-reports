@@ -27,6 +27,9 @@ The given Markdown Parser is on the left, and my group MarkdownParser on the rig
 
 The issue for both can be that our implementation of Markdown Parse only looks for [] [() and if those don’t exist, it skips it. 
 This can be seen here: 
+
+
+
 ![Image](problem.png)
 
 If the open bracket is greater than the ending brackets or parentheses, the return is broken. This correlates to why the results are an empty array "[]". 
