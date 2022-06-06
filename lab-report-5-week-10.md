@@ -28,12 +28,18 @@ The given Markdown Parser is on the left, and my group MarkdownParser on the rig
 
 
 
+The expecred are here: 
+
+![Image](expected.png)
+![Image](expected2.png)
+
+
+
 The issue for both can be that our implementation of Markdown Parse only looks for [] [() and if those don’t exist, it skips it. 
 This can be seen here: 
-
 
 
 ![Image](problem.png)
 
 If the open bracket is greater than the ending brackets or parentheses, the return is broken. This correlates to why the results are an empty array "[]". 
-A way to resolve this bug is to create a condition that doesn't break the code if the parentheses or brackets are out of order and to keep track of the position of parentheiss. This allows us to know when the link ends and doesn't get confused with the parentheses.
+A way to resolve this bug is to create a condition that doesn't break the code if the parentheses or brackets are out of order and to keep track of the position of parentheiss. This allows us to know when the link ends and doesn't get confused with the parentheses. The tests that failed had special characters that the code couldn't read, so making new conditions for new characters would also solve the bug. 
