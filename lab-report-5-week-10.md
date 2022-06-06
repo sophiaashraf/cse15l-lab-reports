@@ -28,7 +28,7 @@ The given Markdown Parser is on the left, and my group MarkdownParser on the rig
 
 
 
-The expecred are both supposed to be [] because they don't create a link. 
+The expeted are both supposed to be [] because they don't create a link, so our markdown parse was wrong.  
 
 
 
